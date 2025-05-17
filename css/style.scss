@@ -220,3 +220,10 @@ footer {
     text-align: center;
   }
 }
+#header {
+  h2 {
+    &:hover {
+      color: #007bff;
+    }
+  }
+}

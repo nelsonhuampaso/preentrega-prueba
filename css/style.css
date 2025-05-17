@@ -234,5 +234,8 @@ footer {
     text-align: center;
   }
 }
+#header h2:hover {
+  color: #007bff;
+}
 
 /*# sourceMappingURL=style.css.map */
