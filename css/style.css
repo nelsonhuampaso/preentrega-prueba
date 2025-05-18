@@ -234,8 +234,56 @@ footer {
     text-align: center;
   }
 }
+#header h2 {
+  transition: all 0.3s ease-in;
+}
 #header h2:hover {
-  color: #007bff;
+  color: #292c3e;
+  transform: translate(-10px);
+}
+
+main .img {
+  transition: all 0.9s ease-in;
+}
+main .img:hover {
+  transform: scale(1.1);
+}
+
+.parent .div1 {
+  transition: all 0.6s ease-in;
+}
+.parent .div1:hover {
+  border: #007bff;
+  transform: translate(-12px) rotate3d(1, 0, 0, 360deg);
+}
+
+@keyframes estilo2-animacion {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-3px);
+  }
+  40% {
+    transform: translateY(-1px);
+  }
+  60% {
+    transform: translateY(1px);
+  }
+  80% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.parent-2 .div1 {
+  transition: background-color 0.3s ease-in-out;
+  animation: estilo2-animacion 3s infinite linear;
+  background-color: #333;
+}
+.parent-2 .div1:hover {
+  background-color: #292c3e;
 }
 
 /*# sourceMappingURL=style.css.map */
