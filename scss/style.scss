@@ -215,7 +215,7 @@ footer {
     margin-right: 0;
     margin-bottom: 8px;
   }
-  #header h2 {
+  #header h1 {
     width: 100%;
     text-align: left;
     margin-bottom: 10px;
@@ -238,7 +238,7 @@ footer {
 }
 //SCSS
 #header {
-  h2 {
+  h1 {
     transition: all 0.3s ease-in;
     &:hover {
       color: #292c3e;
